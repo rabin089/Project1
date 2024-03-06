@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+*{
+    margin: 0;
+
+}
+nav{
+    font-family:'Lugrasimo', cursive;
+    width:100%;
+    }
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none ;
+    height: 65px;
+    justify-content: space-between;
+    background-color: #F0F1F1;
+    color:rgb(31, 27, 27);
+}
+nav ul li{
+    padding: 0 12px;
+    
+}
+
+.brand img{
+    width: 48px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    min-height: max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: calc(100%+5px);
+    left: 0;
+    text-align: left;
+    justify-content: center;
+
+  }
+  
+  .dropdown-content li {
+    padding: 12px 16px;
+    justify-content: left;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  
+/* .box { */
+    /* width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 2 solid white;
+    border-radius: 10px;
+     */
+
